@@ -1,0 +1,16 @@
+{
+	"folders": [{
+		"path": "/Users/jenvillaganas/test/em-test"
+	}],
+	"settings": {
+		"em_authentication_token": "Ktfvbui2UPrWfnqBAVmynACe",
+		"em_default_snippet_template": "rails_erb",
+		"em_urls": {
+			"create": "http://localhost:3002/api/v1/chunks",
+			"show": "http://localhost:3002/api/v1/chunks"
+		},
+		"em_snippet_templates": {
+			"rails_erb": "<%= chunk('{label}','{identifier}') %>"
+		}
+	}
+}
